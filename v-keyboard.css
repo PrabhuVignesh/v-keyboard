@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #eee none repeat scroll 0 0;
+    font: 71%/1.5 Verdana,sans-serif;
+}
+#container {
+    margin: 100px auto;
+    width: 688px;
+}
+#write {
+    background: #bfffff none repeat scroll 0 0;
+    border: 1px solid #99e5ff;
+    height: 200px;
+    margin: 0 0 5px;
+    padding: 5px;
+    width: 671px;
+}
+#keyboard {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+#keyboard li {
+    background: #ffffbf none repeat scroll 0 0;
+    border: 1px solid #ffff26;
+    float: left;
+    height: 30px;
+    line-height: 40px;
+    margin: 0 5px 5px 0;
+    text-align: center;
+    width: 30px;
+}
+.capslock, .tab, .left-shift {
+    clear: left;
+}
+#keyboard .tab, #keyboard .delete {
+    width: 70px;
+}
+#keyboard .capslock {
+    width: 70px;
+}
+#keyboard .return {
+    width: 67px;
+}
+#keyboard .left-shift {
+    width: 87px;
+}
+#keyboard .right-shift {
+    width: 88px;
+}
+.lastitem {
+    margin-right: 0;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+#keyboard .space {
+    clear: left;
+    width: 552px;
+}
+.on {
+    display: none;
+}
+#keyboard li:hover {
+    border-color: #e5e5e5;
+    cursor: pointer;
+    left: 1px;
+    position: relative;
+    top: 1px;
+}
